@@ -1,0 +1,306 @@
+{
+  "id": 49071584,
+  "orderGroupId": "None",
+  "serviceFeeAmount": 0.0,
+  "totalAmount": 31.9,
+  "executionTimeLabel": "lo antes posible (max. 22:11h)",
+  "preparationTimeLabel": "lo antes posible (max. 22:01h)",
+  "comment": "",
+  "cancellationComment": "Test order cancelled by system",
+  "consumer": {
+    "id": 2636065,
+    "name": "test",
+    "lastname": "test",
+    "email": "test@test.com",
+    "phone": "+34672356788",
+    "image": "None",
+    "notificationsChannel": "58af6cbab7c4a2c8dfb8b6bbcd5af3b5",
+    "chatToken": "bf37e3dc0f890ac9511d4510171f06fa6aeda2e3c9f65d60bc7974369f58af71",
+    "language": "en",
+    "posClientId": "None",
+    "marketClientId": "None"
+  },
+  "status": {
+    "code": "cancelled_by_team",
+    "name": "Cancelled by system",
+    "color": "#ff0000",
+    "isFinalStatus": "True",
+    "globalStatusCode": "completed"
+  },
+  "type": "delivery",
+  "sellingPoint": {
+    "id": 6043,
+    "name": "Prior Data Pizza",
+    "address": {
+      "id": 2621292,
+      "street": "Carrer de la Tecnologia, 17",
+      "details": "None",
+      "city": "Viladecans",
+      "province": "Barcelona",
+      "country": {
+        "isoCode": "ES",
+        "name": "Spain",
+        "currency": {
+          "isoCode": "EUR",
+          "symbol": "€",
+          "displayPattern": "{{ amount }} €",
+          "minorUnit": 2
+        }
+      },
+      "postalCode": "08840",
+      "latitude": 41.31372,
+      "longitude": 2.031222,
+      "googlePlaceId": "ChIJRQPl5lmcpBIRXpga-ZW5xvY",
+      "placeName": "Carrer de la Tecnologia, 17, 08840 Viladecans, Barcelona, España",
+      "autoGeolocated": "True"
+    },
+    "phone": "+34900000000",
+    "email": "None",
+    "logo": "https://content.sinqro.com/e4cd836538_f79efe5783_82291551976531iconImagesqd2mt.png",
+    "mainImage": "https://content.sinqro.com/d770d57632_4e01533575_85091551975570baked-cheese-cherry-tomato-1552635.png",
+    "mainImageLarge": "https://content.sinqro.com/1551975570_bab77d7d5bbcec5e64cd3c1ac22c56ee.png",
+    "listImage": "https://content.sinqro.com/d770d57632_4e01533575_85091551975570baked-cheese-cherry-tomato-1552635.png",
+    "listImageLarge": "https://content.sinqro.com/1551975570_bab77d7d5bbcec5e64cd3c1ac22c56ee.png",
+    "type": "Pizzería",
+    "urlKey": "prior-data-pizza-viladecans",
+    "timezone": "Europe/Madrid",
+    "requiredPostalCode": "True",
+    "currency": {
+      "isoCode": "EUR",
+      "symbol": "€",
+      "displayPattern": "{{ amount }} €",
+      "minorUnit": 2
+    }
+  },
+  "brand": {
+    "id": 2656002,
+    "name": "Prior Data Pizza",
+    "iconImage": "https://content.sinqro.com/1551976531_f79322f5ff0128da7797bcefacaca268.png",
+    "logoImage": "https://content.sinqro.com/1551976531_8b826ec1db03c28e6fd513d8cb86b008.png",
+    "lightLogoImage": "https://content.sinqro.com/1551976531_38a5d627384f3fdbdda98af53806203d.png",
+    "squareLogoImage": "https://content.sinqro.com/1551976531_f79322f5ff0128da7797bcefacaca268.png",
+    "mainImage": "None"
+  },
+  "payments": [
+    {
+      "id": 5648548,
+      "amount": 31.9,
+      "debtAmount": 31.9,
+      "tipAmount": 0.0,
+      "paymentMethodName": "Cash",
+      "prepaid": "False",
+      "methodCode": "CASH",
+      "liquidationMethodCode": "CONSUMER_CASH",
+      "status": {
+        "code": "DONE",
+        "name": "Finalizado",
+        "color": "#5aac44",
+        "isFinalStatus": "False"
+      }
+    }
+  ],
+  "orderLines": [
+    {
+      "type": "PRODUCT",
+      "totalAmount": 28.9,
+      "unitPrice": 14.45,
+      "quantity": 2,
+      "label": "Pizza 4 quesos",
+      "comment": "",
+      "childrenOrderLines": [
+        {
+          "type": "PRODUCT_OPTION",
+          "totalAmount": 1.0,
+          "unitPrice": 1.0,
+          "quantity": 1,
+          "label": "Bacon",
+          "comment": "None",
+          "childrenOrderLines": [],
+          "baseAmount": 0.91,
+          "vatAmount": 0.09,
+          "vatValue": 10,
+          "productOption": { "id": 1584838, "externalId": "None" }
+        },
+        {
+          "type": "PRODUCT_OPTION",
+          "totalAmount": 1.5,
+          "unitPrice": 1.5,
+          "quantity": 1,
+          "label": "Jamón Serrano",
+          "comment": "None",
+          "childrenOrderLines": [],
+          "baseAmount": 1.36,
+          "vatAmount": 0.14,
+          "vatValue": 10,
+          "productOption": { "id": 1584839, "externalId": "None" }
+        }
+      ],
+      "baseAmount": 26.27,
+      "vatAmount": 2.63,
+      "vatValue": 10,
+      "product": { "id": 653029, "externalId": "None" }
+    },
+    {
+      "type": "PRODUCT",
+      "totalAmount": 2.0,
+      "unitPrice": 2.0,
+      "quantity": 1,
+      "label": "Cerveza 33cl",
+      "comment": "",
+      "childrenOrderLines": [],
+      "baseAmount": 1.82,
+      "vatAmount": 0.18,
+      "vatValue": 10,
+      "product": { "id": 653034, "externalId": "None" }
+    },
+    {
+      "type": "DELIVERY",
+      "totalAmount": 1.0,
+      "unitPrice": 1.0,
+      "quantity": 1,
+      "label": "Gastos de entrega",
+      "comment": "None",
+      "childrenOrderLines": [],
+      "baseAmount": 0.91,
+      "vatAmount": 0.09,
+      "vatValue": 10,
+      "distance": 1.74
+    }
+  ],
+  "isCancellable": "False",
+  "isAcceptable": "True",
+  "baseAmount": 29.0,
+  "vatAmount": 2.9,
+  "test": "True",
+  "currency": {
+    "isoCode": "EUR",
+    "symbol": "€",
+    "displayPattern": "{{ amount }} €",
+    "minorUnit": 2
+  },
+  "market": {
+    "id": 1591,
+    "code": "46797dd79c",
+    "name": "Prior Data Pizza",
+    "darkLogo": "https://content.sinqro.com/e4cd836864_f79efe9765_82551551976531darkLogoImagerdyoja.png",
+    "lightLogo": "https://content.sinqro.com/e4cd839044_f79efe6578_75941551976531lightLogoImagevrni7j.png",
+    "horizontalLogo": "https://content.sinqro.com/e4cd836503_f79efe7214_62761551976531horizontalLogoImagecpnt6o.png",
+    "squareLogo": "https://content.sinqro.com/e4cd836538_f79efe5783_82291551976531iconImagesqd2mt.png"
+  },
+  "createdAt": "2023-05-19T19:41:20+0000",
+  "preparationTime": "2023-05-19T20:01:20+0000",
+  "isAsap": "True",
+  "posOrderId": "None",
+  "marketOrderId": "None",
+  "marketOrderCode": "49071584",
+  "invoiceNumber": "None",
+  "executionTime": "2023-05-19T20:11:20+0000",
+  "deliveryAmount": 1.0,
+  "deliveryAddress": {
+    "id": 2623665,
+    "street": "calle",
+    "details": "None",
+    "city": "Viladecans",
+    "province": "Barcelona",
+    "country": {
+      "isoCode": "ES",
+      "name": "Spain",
+      "currency": {
+        "isoCode": "EUR",
+        "symbol": "€",
+        "displayPattern": "{{ amount }} €",
+        "minorUnit": 2
+      }
+    },
+    "postalCode": "08840",
+    "latitude": 41.298108,
+    "longitude": 2.032217,
+    "googlePlaceId": "None",
+    "placeName": "calle, Viladecans",
+    "autoGeolocated": "False"
+  },
+  "deliveries": [
+    {
+      "id": 46296325,
+      "status": {
+        "code": "CANCELLED",
+        "name": "Cancelado",
+        "color": "#dd0b0b",
+        "isFinalStatus": "True"
+      },
+      "driver": "None",
+      "deliveryAccountId": 2656003,
+      "deliveryAccountName": "Prior Data Pizza",
+      "deliveryAccountPhone": "None",
+      "deliveryAccountPhoneInternational": "None",
+      "pickupAddress": {
+        "id": 2621292,
+        "street": "Carrer de la Tecnologia, 17",
+        "details": "None",
+        "city": "Viladecans",
+        "province": "Barcelona",
+        "country": {
+          "isoCode": "ES",
+          "name": "Spain",
+          "currency": {
+            "isoCode": "EUR",
+            "symbol": "€",
+            "displayPattern": "{{ amount }} €",
+            "minorUnit": 2
+          }
+        },
+        "postalCode": "08840",
+        "latitude": 41.31372,
+        "longitude": 2.031222,
+        "googlePlaceId": "ChIJRQPl5lmcpBIRXpga-ZW5xvY",
+        "placeName": "Carrer de la Tecnologia, 17, 08840 Viladecans, Barcelona, España",
+        "autoGeolocated": "True"
+      },
+      "pickupAgreedAt": "2023-05-19T20:01:20+0000",
+      "pickupConfirmedAt": "2023-05-19T20:01:20+0000",
+      "deliveryAddress": {
+        "id": 2623665,
+        "street": "calle",
+        "details": "None",
+        "city": "Viladecans",
+        "province": "Barcelona",
+        "country": {
+          "isoCode": "ES",
+          "name": "Spain",
+          "currency": {
+            "isoCode": "EUR",
+            "symbol": "€",
+            "displayPattern": "{{ amount }} €",
+            "minorUnit": 2
+          }
+        },
+        "postalCode": "08840",
+        "latitude": 41.298108,
+        "longitude": 2.032217,
+        "googlePlaceId": "None",
+        "placeName": "calle, Viladecans",
+        "autoGeolocated": "False"
+      },
+      "deliveryAgreedAt": "2023-05-19T20:11:20+0000",
+      "deliveryConfirmedAt": "2023-05-19T20:11:20+0000",
+      "deliveryInstructions": "Prior Data Pizza (49071584) | Tienes que COBRAR 31.9 (Cash) en la entrega",
+      "forSenderInstructions": "None",
+      "linearDistance": 1.74,
+      "realDistance": "None",
+      "route": "None",
+      "estimatedDeliveryDuration": 10,
+      "destinationContactEmail": "test@test.com",
+      "destinationContactName": "test · test",
+      "destinationContactPhone": "672356788",
+      "destinationContactPhoneInternational": "+34672356788",
+      "isSelfDelivery": "True",
+      "trackingUrl": "https://tracking.sinqro.com/es-es/delivery?t=921acc97203a1cfc0c7da1edb904da14",
+      "sinqroOrderId": 49071584,
+      "marketOrderCode": "49071584",
+      "marketOrderId": "None",
+      "marketName": "Prior Data Pizza",
+      "marketCode": "46797dd79c",
+      "orderTotalAmount": 31.9
+    }
+  ]
+}

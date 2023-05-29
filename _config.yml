@@ -32,5 +32,5 @@ dribbble:            jamigibbs
 
 # Gems
 plugins:
-  # - jekyll-paginate
+  - jekyll-paginate
   # - jekyll-gist
